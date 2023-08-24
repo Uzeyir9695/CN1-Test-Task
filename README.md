@@ -1,10 +1,9 @@
 # NC1 Test Task.
-**After cloning, setup database and run the commands below:**
+**After cloning, setup database and just run the commands below:**
 
 ```
 composer install
 php artisan key:generate
-php artisan migrate
-php artisan db:seed --class=HouseSeeder
+php artisan migrate:fresh --seed
 
 ```
