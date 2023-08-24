@@ -19,6 +19,7 @@
 <body>
     <div id="app">
         <main class="py-4">
+            <house></house>
         </main>
     </div>
     @vite('resources/js/app.js')
